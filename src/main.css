@@ -1,0 +1,26 @@
+.creator-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.creator-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.creator-card h3 {
+  margin-top: 10px;
+}
+
+.creator-card p {
+  color: #666;
+}
+
+.creator-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+}
