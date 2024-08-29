@@ -26,8 +26,14 @@ Required Features The following required functionality is completed:
 [X]Video Walkthrough Here's a walkthrough of implemented required features:
 
 GIF created with Canva. The URL is here: 
-Project demonstartion: [[https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)](https://www.canva.com/design/DAGO7iQJBVw/dvYeKsOXFJLEcrDtLz0C0Q/watch?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-git demonstration:
+
+Project demonstartion with card additon:
+https://www.canva.com/design/DAGO7iQJBVw/dvYeKsOXFJLEcrDtLz0C0Q/watch?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+Card deletion demonstration:
+https://www.canva.com/design/DAGPNAFn4aQ/KvgE1CcODHoggD9e4DyNLA/watch?utm_content=DAGPNAFn4aQ&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+git demonstration about different files on the git:
 https://www.canva.com/design/DAGPM_cmneE/AVmaEhmrp63jFcZabjQO4w/watch?utm_content=DAGPM_cmneE&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 Notes Describe any challenges encountered while building the app or any additional context you'd like to add. I faced difficulty while connecting to database.Because I used secure key insteaed of regular API key. That consumed so many hours to fix. 
