@@ -2,7 +2,7 @@ EB103 Prework - creatorverse
 
 Submitted by: Sahrish Afzal
 
-About this web app: 👉🏿 Frontend Website "creatorverse that has CRUD functionality to add the name, url, description about different users and alow you to edit or delete the created section
+About this web app: 👉🏿 Frontend Website "creatorverse that has CRUD functionality to add the name, url, description about different users and allow you to edit or delete the created card.
 
 Time spent: 60 hours
 
