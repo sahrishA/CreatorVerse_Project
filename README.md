@@ -25,7 +25,8 @@ Required Features The following required functionality is completed:
 [ main.css] List anything else that you added to improve the site's functionality! 
 [X]Video Walkthrough Here's a walkthrough of implemented required features:
 
-GIF created with Canva. The URL is here https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+GIF created with Canva. The URL is here: 
+[https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Notes Describe any challenges encountered while building the app or any additional context you'd like to add. I faced difficulty while connecting to database.Because I used secure key insteaed of regular API key. That consumed so many hours to fix. 
 
