@@ -26,7 +26,7 @@ Required Features The following required functionality is completed:
 [X]Video Walkthrough Here's a walkthrough of implemented required features:
 
 GIF created with Canva. The URL is here: 
-Project demonstartion: [https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Project demonstartion: [[https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGO7iQJBVw/9_vkQYxPqnVNtrvdlkDQeg/edit?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)](https://www.canva.com/design/DAGO7iQJBVw/dvYeKsOXFJLEcrDtLz0C0Q/watch?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 git demonstration:
 https://www.canva.com/design/DAGPM_cmneE/AVmaEhmrp63jFcZabjQO4w/watch?utm_content=DAGPM_cmneE&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
