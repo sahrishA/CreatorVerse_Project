@@ -13,15 +13,20 @@ const EditCreator = () => {
   useEffect(() => {
     if (id) {
       const fetchCreator = async () => {
-        const { data } = await supabase
+        const { data, error } = await supabase
           .from('creators')
           .select('*')
           .eq('id', id)
           .single();
-        setName(data.name);
-        setUrl(data.url);
-        setDescription(data.description);
-        setImageURL(data.imageURL);
+
+        if (error) {
+          console.error('Error fetching creator:', error);
+        } else {
+          setName(data.name);
+          setUrl(data.url);
+          setDescription(data.description);
+          setImageURL(data.imageURL);
+        }
       };
 
       fetchCreator();
@@ -31,28 +36,20 @@ const EditCreator = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (id) {
-      // Update existing creator
-      const { error } = await supabase
-        .from('creators')
-        .update({ name, url, description, imageURL })
-        .eq('id', id);
-      if (error) console.error(error);
-    } else {
-      // Create new creator
-      const { error } = await supabase
-        .from('creators')
-        .insert({ name, url, description, imageURL });
-      if (error) console.error(error);
-    }
+    const { error } = await supabase
+      .from('creators')
+      .update({ name, url, description, imageURL })
+      .eq('id', id);
 
-    alert(id ? 'Creator updated!' : 'Creator added!');
-    navigate('/creators');
+    if (error) {
+      console.error('Error updating creator:', error);
+    } else {
+      alert('Creator updated!');
+      navigate('/creators');
+    }
   };
 
   const handleDelete = async () => {
-    if (!id) return;
-
     const confirmDelete = window.confirm('Are you sure you want to delete this creator?');
     if (confirmDelete) {
       const { error } = await supabase
@@ -60,8 +57,9 @@ const EditCreator = () => {
         .delete()
         .eq('id', id);
 
-      if (error) console.error(error);
-      else {
+      if (error) {
+        console.error('Error deleting creator:', error);
+      } else {
         alert('Creator deleted!');
         navigate('/creators');
       }
@@ -70,6 +68,11 @@ const EditCreator = () => {
 
   return (
     <div>
+      <div style={{ display:'flex', marginBottom: '20px',gap: '10px'  }}>
+        <button onClick={() => navigate('/add-creator')}>Add Creator</button>
+        <button onClick={() => navigate('/creators')}>Show Creators</button>
+      </div>
+      <h1>Edit Creator</h1>
       <form onSubmit={handleSubmit}>
         <label>Name</label>
         <input
@@ -100,19 +103,16 @@ const EditCreator = () => {
           value={imageURL}
           onChange={(e) => setImageURL(e.target.value)}
         />
-
-        <button type="submit">{id ? 'Update Creator' : 'Add Creator'}</button>
-        {id && (
-          <button onClick={handleDelete} style={{ color: 'red' }}>
-            Delete Creator
-          </button>
-        )}
+        <div style={{ display: 'flex', gap: '10px' }}>
+          <button type="submit">Update Creator</button>
+        <button type="button" onClick={handleDelete} style={{ color: 'red' }}>
+          Delete Creator
+        </button>
+        </div>
+        
       </form>
     </div>
   );
 };
 
 export default EditCreator;
-
-
-
