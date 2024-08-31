@@ -27,15 +27,15 @@ Required Features The following required functionality is completed:
 
 GIF created with Canva. The URL is here: 
 
-Project demonstartion with card additon:
-https://www.canva.com/design/DAGO7iQJBVw/dvYeKsOXFJLEcrDtLz0C0Q/watch?utm_content=DAGO7iQJBVw&utm_campaign=designshare&utm_medium=link&utm_source=editor
+New updated Project demonstration:
 
-Card deletion demonstration:
-https://www.canva.com/design/DAGPNAFn4aQ/KvgE1CcODHoggD9e4DyNLA/watch?utm_content=DAGPNAFn4aQ&utm_campaign=designshare&utm_medium=link&utm_source=editor
+https://www.canva.com/design/DAGPdiF5O2c/xjAHC6OwFg-Y5XcMcS1xog/watch?utm_content=DAGPdiF5O2c&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
+................................................................................
 
 git demonstration about different files on the git:
 https://www.canva.com/design/DAGPM_cmneE/AVmaEhmrp63jFcZabjQO4w/watch?utm_content=DAGPM_cmneE&utm_campaign=designshare&utm_medium=link&utm_source=editor
-
+..................................................................................
 Notes Describe any challenges encountered while building the app or any additional context you'd like to add. I faced difficulty while connecting to database.Because I used secure key insteaed of regular API key. That consumed so many hours to fix. 
 
 License Copyright [2024] [sahrish Afzal]
